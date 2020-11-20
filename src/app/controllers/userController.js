@@ -68,7 +68,7 @@ class UserController {
 
   async logout(req, res) {
     req.session.user = undefined;
-    res.redirect('/intestino');
+    res.redirect('/');
   }
 }
 
